@@ -1,0 +1,127 @@
+* {
+  font-family: "Overpass", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(216, 12%, 8%);
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+.main-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 450px;
+  height: 400px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 30px;
+}
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: hsl(213, 19%, 21%);
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.main-card h1 {
+  color: hsl(0, 0%, 100%);
+}
+.section-one {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.main-card p {
+  color: hsl(216, 12%, 54%);
+}
+
+.section-two {
+  margin-left: 20px;
+  line-height: 25px;
+}
+.section-three {
+  display: flex;
+  flex-direction: row;
+}
+.star2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: hsl(0, 0%, 100%);
+  border-radius: 50px;
+  background-color: hsl(213, 19%, 21%);
+}
+.star2:hover {
+  cursor: pointer;
+  background-color: hsl(216, 12%, 54%);
+}
+.btn {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+.two-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  height: 400px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 30px;
+}
+.static {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 40px;
+  height: 40px;
+  width: 200px;
+  background-color: hsl(213, 19%, 21%);
+  border-radius: 30px;
+  color: hsl(25, 97%, 53%);
+  word-spacing: 4px;
+}
+
+.img-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.two-card h1 {
+  color: hsl(0, 0%, 100%);
+}
+.two-card .last {
+  color: hsl(216, 12%, 54%);
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
+  font-size: larger;
+}
+.hidden {
+  display: none;
+}
